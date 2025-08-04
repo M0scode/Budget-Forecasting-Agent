@@ -12,7 +12,11 @@ st.set_page_config(page_title="Budget Forecasting Agent", layout="wide")
 # Custom CSS for styling
 st.markdown("""
     <style>
-    .main { background-color: #f5f7fa; }
+    .main { background-image: url('budget.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; }
     .stButton>button { background-color: #2c3e50; color: white; }
     .stSelectbox { margin-bottom: 20px; }
     .title { color: #2c3e50; font-size: 2.5em; text-align: center; }
