@@ -12,11 +12,29 @@ st.set_page_config(page_title="Budget Forecasting Agent", layout="wide")
 # Custom CSS for styling
 st.markdown("""
     <style>
-    .main { background-image: url('budget.jpg');
+    .main { 
+        background-image: url('https://raw.githubusercontent.com/M0scode/skills-github-pages/main/What-makes-a-good-demand-planner-1-759x500.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment: fixed; }
+        background-attachment: fixed;
+        position: relative;
+        background-color: #f5f7fa; /* Fallback color */
+    }
+    .main::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255, 255, 255, 0.5); /* White overlay with 50% opacity */
+        z-index: 1;
+    }
+    .main > * {
+        position: relative;
+        z-index: 2; /* Ensure content is above overlay */
+    }
     .stButton>button { background-color: #2c3e50; color: white; }
     .stSelectbox { margin-bottom: 20px; }
     .title { color: #2c3e50; font-size: 2.5em; text-align: center; }
