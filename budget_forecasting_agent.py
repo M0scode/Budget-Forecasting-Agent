@@ -122,7 +122,7 @@ def generate_report(merged, anomalies, department, category):
 
 # Streamlit App
 def main():
-    st.markdown('<div class="title">Pioneer Budget Forecasting Agent</div>', unsafe_allow_html=True)
+    st.markdown('<div class="title">Budget Forecasting Agent</div>', unsafe_allow_html=True)
     st.markdown('<div class="subtitle">Interactive expense forecasting for financial planning</div>', unsafe_allow_html=True)
     
     # File uploader
