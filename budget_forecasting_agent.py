@@ -22,7 +22,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Placeholder logo
-st.markdown('<div class="logo">Business Consulting - Budget Forecasting</div>', unsafe_allow_html=True)
+st.markdown('<div class="logo">2S0 Technologies - Budget Forecasting</div>', unsafe_allow_html=True)
 
 # Step 1: Generate Synthetic Data
 def generate_synthetic_data():
