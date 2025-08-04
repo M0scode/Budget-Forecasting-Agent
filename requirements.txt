@@ -1,0 +1,4 @@
+pandas>=2.0.0
+numpy>=1.23.0
+prophet>=1.1.0
+matplotlib>=3.5.0
